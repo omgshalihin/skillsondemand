@@ -43,8 +43,6 @@ const Account = () => {
         userImage: session.user.image,
       };
 
-      console.log(JSON.stringify(user));
-
       fetch('https://skillsondemandbackend-production.up.railway.app/api/users', {
         method: 'POST',
         mode: 'cors',

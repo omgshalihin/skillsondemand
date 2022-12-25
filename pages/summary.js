@@ -17,7 +17,7 @@ const Summary = () => {
 
   useEffect(() => {
     if (session) {
-      fetch(`https://safe-hire-me.azurewebsites.net/api/users/history/${session.user.email}`, {
+      fetch(`https://skillsondemandbackend-production.up.railway.app/api/users/history/${session.user.email}`, {
         mode: 'cors',
         headers: {
           'Content-type': 'application/json; charset=UTF-8',

@@ -22,6 +22,8 @@ const Map = ({ professionals, inputLocation }) => {
   const [coords, setCoords] = useState([]);
   const [centerCoords, setCenterCoords] = useState([]);
 
+  console.log(coords);
+
   useEffect(
     () => {
       if (professionals) {

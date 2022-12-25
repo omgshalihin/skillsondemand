@@ -1,0 +1,74 @@
+.logoLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoLinks a {
+  padding: 10px;
+  padding: 0 10px 0 10px;
+  align-self: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.logoLinks a:hover {
+  transform: scale(0.93);
+}
+
+.contactMain {
+  width: 100%;
+  background-color: white;
+}
+
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  margin: 0 auto;
+  padding: 0 10px;
+  background-color: white;
+}
+
+.contact {
+  grid-column: 1 / 2;
+  display: grid;
+  margin: 20px 10px 0px 10px;
+  max-height: 100vh;
+  overflow: auto;
+  align-items: start;
+}
+
+@media screen and (min-width: 480px) {
+  .contactMain {
+    height: 100vh;
+  }
+
+  .contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  .contact {
+    grid-column: span 1;
+    display: grid;
+    align-items: start;
+  }
+}
+
+@media screen and (min-width: 870px) {
+  .contactContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1%;
+    max-width: 80%;
+  }
+
+  .contact {
+    max-width: auto;
+  }
+}

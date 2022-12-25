@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  max-width: 5000px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #040f16;
+    background: #fbfbff;
+  }
+}
+
+.body-container {
+  min-height: 100vh;
+}
+
+.submitBtn {
+  color: #fbfbff;
+}
+
+.footer-container {
+  background-color: #fbfbff;
+  border-top: 1px solid #eaeaea;
+  padding: 20px 80px 20px 80px;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-school-name {
+  align-self: center;
+}
+
+.gm-style .gm-style-iw-c {
+  transition: all 0.2s ease-in-out;
+  z-index: 0;
+}
+
+.gm-style:hover .gm-style-iw-c:hover {
+  padding: 10px !important;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.view-profile {
+  transition: all 0.2s ease-in-out;
+}
+.view-profile:hover {
+  transform: scale(0.98);
+}
+
+.login-main-container {
+  height: 100vh;
+}
+
+.login-main-container-div {
+  padding: 20px 80px 20px 80px;
+  text-align: center;
+}

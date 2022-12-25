@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "salt",
+    "salt/react",
+    "salt/react/hooks",
+    "next/core-web-vitals"
+  ],
+  "rules": {
+    "react/jsx-closing-bracket-location": [
+      "error",
+      {
+        "selfClosing": "after-props",
+        "nonEmpty": "after-props"
+      }
+    ],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [
+          ".js"
+        ]
+      }
+    ],
+    "react/prop-types": "off"
+  }
+}

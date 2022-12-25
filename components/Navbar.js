@@ -32,7 +32,7 @@ const NavBar = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch('https://safe-hire-me.azurewebsites.net/api/professionals')
+    fetch('https://skillsondemandbackend-production.up.railway.app/api/professionals')
       .then(response => response.json())
       .then(result => {
         setData(result);

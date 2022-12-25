@@ -13,7 +13,7 @@ import styles from '../../styles/Gallery.module.css';
 import navStyles from '../../styles/Navbar.module.css';
 
 export const getStaticProps = async () => {
-  const url = 'https://safe-hire-me.azurewebsites.net/api/professionals';
+  const url = 'https://skillsondemandbackend-production.up.railway.app/api/professionals';
   const result = await fetch(url);
 
   return {

@@ -13,11 +13,13 @@ import {
 } from '@react-google-maps/api';
 import styles from '../styles/Navbar.module.css';
 
+const libraries = ['places'];
+
 const NavBar = () => {
   // eslint-disable-next-line no-unused-vars
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-    libraries: ['places'],
+    libraries,
   });
 
   const { data: session } = useSession();

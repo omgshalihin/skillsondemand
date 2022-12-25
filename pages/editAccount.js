@@ -50,7 +50,7 @@ const EditAccount = () => {
       userAddress: `${address}, ${postCode}, ${country}`,
     };
 
-    fetch(`https://safe-hire-me.azurewebsites.net/api/users/addressChange/${session.user.email}`, {
+    fetch(`https://skillsondemandbackend-production.up.railway.app/api/users/addressChange/${session.user.email}`, {
       method: 'PATCH',
       mode: 'cors',
       body: JSON.stringify(userAddress),

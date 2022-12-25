@@ -55,8 +55,6 @@ const Account = () => {
     }
   }, [session]);
 
-  console.log(session);
-
   if (status === 'authenticated') {
     return (
       <div>

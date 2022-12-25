@@ -25,7 +25,7 @@ const Details = () => {
   React.useEffect(() => {
     const { id } = router.query;
     if (!id) return;
-    fetch(`https://safe-hire-me.azurewebsites.net/api/professionals/${id}`)
+    fetch(`https://skillsondemandbackend-production.up.railway.app/api/professionals/${id}`)
       .then(res => res.json())
       .then(data => setProfessionals(data))
       .catch(error => console.log(error));
@@ -45,7 +45,7 @@ const Details = () => {
         professionalImage: professionals.professionalImage,
       };
 
-      fetch(`https://safe-hire-me.azurewebsites.net/api/users/${session.user.email}`, {
+      fetch(`https://skillsondemandbackend-production.up.railway.app/api/users/${session.user.email}`, {
         method: 'PATCH',
         mode: 'cors',
         body: JSON.stringify(serviceHistory),

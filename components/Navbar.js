@@ -87,7 +87,7 @@ const NavBar = () => {
 
       <div className={styles.navlogo}>
         <Link href="/">
-          <Image src="/HireMeNew.png" width={120} height={120} alt="hire me logo" />
+          <Image priority="true" src="/HireMeNew.png" width={120} height={120} alt="hire me logo" />
         </Link>
       </div>
 

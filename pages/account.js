@@ -43,7 +43,7 @@ const Account = () => {
         userImage: session.user.image,
       };
 
-      fetch('https://safe-hire-me.azurewebsites.net/api/users/', {
+      fetch('https://skillsondemandbackend-production.up.railway.app/api/users/', {
         method: 'POST',
         mode: 'cors',
         body: JSON.stringify(user),

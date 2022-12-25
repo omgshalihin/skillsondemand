@@ -33,14 +33,10 @@ export default function Home() {
           {' '}
           <span className={styles.companyName}>HireMe</span>
         </h1>
-
-        <div className={styles.description}>
-          <h2>
-            Skilled professionals at your fingertips
-          </h2>
-        </div>
-        <Image src="/landingImage.jpeg" alt="landing" width={900} height={900} />
-
+        <h2 className={styles.description}>
+          Skilled professionals at your fingertips
+        </h2>
+        <Image priority="true" src="/aaa.jpg" alt="landing" height={200} width={200} />
       </main>
 
       <nav className={navStyles.bottomNav}>

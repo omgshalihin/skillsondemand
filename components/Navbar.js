@@ -168,9 +168,9 @@ const NavBar = () => {
               <Navbar.Toggle />
             </div>
           ) : (
-            <Navbar.Link>
+            <div>
               <Link href="/login" onClick={() => signIn()}>Login</Link>
-            </Navbar.Link>
+            </div>
           )}
         </div>
       </div>

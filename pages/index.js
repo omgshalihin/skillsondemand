@@ -9,11 +9,13 @@ import Footer from '../components/Footer';
 import styles from '../styles/Home.module.css';
 import navStyles from '../styles/Navbar.module.css';
 
+const libraries = ['places'];
+
 export default function Home() {
   // eslint-disable-next-line no-unused-vars
   const { isLoaded } = useJsApiLoader({
     googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
-    libraries: ['places'],
+    libraries,
   });
 
   const { data: session } = useSession();

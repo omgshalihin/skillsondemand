@@ -35,8 +35,6 @@ const Account = () => {
   const { data: session, status } = useSession();
   const [databaseData, setDatabaseData] = useState({});
 
-  console.log(session);
-
   useEffect(() => {
     if (session) {
       const user = {

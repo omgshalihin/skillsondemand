@@ -1,4 +1,4 @@
-## This is a project titled [`HireMe`](https://skillsondemand-production.up.railway.app/gallery?location=Stockholm,%20Sweden&service=).
+## This is a project titled [`HireMe`](https://skillsondemand-production.up.railway.app/gallery?location=Stockholm,%20Sweden&service=)
 
 Open [skillsondemand-production.up.railway.app](skillsondemand-production.up.railway.app) with your browser to see the result.
 

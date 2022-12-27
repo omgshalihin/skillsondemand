@@ -2,11 +2,11 @@
 
 Open [skillsondemand-production.up.railway.app](skillsondemand-production.up.railway.app) with your browser to see the result.
 
-## Backend
+## Backend Repository
 
 You can check out [HireMe-Backend GitHub repository](https://github.com/omgshalihin/skillsondemand_backend/) - your feedback is welcome!
 
-## Deploy on Railway app
+## Deployed on Railway app
 
 [Railway](https://railway.app/) is an infrastructure platform where you can provision infrastructure, develop with that infrastructure locally, and then deploy to the cloud.
 

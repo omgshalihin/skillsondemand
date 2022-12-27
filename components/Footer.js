@@ -10,7 +10,7 @@ const PageFooter = () => (
       by="Copyright 2022 SAFE. All Rights Reserved."
       year={2022} />
     <Footer.LinkGroup>
-      <Footer.Link href="https://github.com/FilipeRA/jfs_22_safe_final_project">
+      <Footer.Link href="https://github.com/omgshalihin/skillsondemand">
         <Image src="/GitHub-Mark-120px-plus.png" alt="" width={30} height={30} />
       </Footer.Link>
       <Footer.Link href="https://www.salt.dev/sv-SE" className="footer-school-name">

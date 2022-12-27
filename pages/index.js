@@ -36,7 +36,7 @@ export default function Home() {
         <h2 className={styles.description}>
           Skilled professionals at your fingertips
         </h2>
-        <Image priority="true" src="/aaa.jpg" alt="landing" height={200} width={200} />
+        <Image priority="true" src="/landingImage.jpeg" alt="landing" height={200} width={200} />
       </main>
 
       <nav className={navStyles.bottomNav}>

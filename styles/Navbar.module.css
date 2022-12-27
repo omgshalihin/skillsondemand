@@ -153,12 +153,16 @@
   .bottomNav {
     display: none;
   }
-  .bottomFooter {
+  /* .bottomFooter {
     position: sticky;
     bottom: 0;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: space-between;
+  } */
+  .bottomFooter {
+    bottom: 0;
+    display: flex;
   }
 }

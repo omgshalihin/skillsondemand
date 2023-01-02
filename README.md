@@ -1,6 +1,6 @@
 ## Salt Graduation Project Title: [`HireMe`](https://skillsondemand-production.up.railway.app/gallery?location=Stockholm,%20Sweden&service=)
 
-Open [skillsondemand-production.up.railway.app](skillsondemand-production.up.railway.app) with your browser to see the result.
+Open [app](https://skillsondemand-production.up.railway.app/gallery?location=Stockholm,%20Sweden&service=) with your browser to see the result.
 
 
 

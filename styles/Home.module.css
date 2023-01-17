@@ -43,9 +43,8 @@
 }
 
 .main img {
-  min-width: 100vw;
+  min-width: 30vw;
   height: auto;
-  object-fit: cover;
 }
 
 @media (min-width: 1020px) {

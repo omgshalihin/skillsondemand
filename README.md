@@ -15,9 +15,10 @@ Special thanks to my `mob members` for working together to make this app a succe
 
 ## Preview of Website
 
-![Screenshot 2022-12-28 at 22 30 51](https://user-images.githubusercontent.com/52775977/209874406-f23519a2-2ab2-47bd-9c73-c7e7d02bb89d.png) 
-
-![Screenshot 2022-12-28 at 22 31 45](https://user-images.githubusercontent.com/52775977/209874410-d6747806-8f07-4775-933f-9b294222a11e.png)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/52775977/209874406-f23519a2-2ab2-47bd-9c73-c7e7d02bb89d.png" alt="static" />
+  <img src="https://user-images.githubusercontent.com/52775977/209874410-d6747806-8f07-4775-933f-9b294222a11e.png" alt="static" />
+</p>
 
 ## Backend Repository
 

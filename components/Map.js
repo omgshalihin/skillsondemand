@@ -63,7 +63,7 @@ const Map = ({ professionals, inputLocation }) => {
       {coords.map((coord, i) => (
         <>
           <Link key={professionals[i].id} href={`/gallery/${professionals[i].id}`}>
-            <InfoWindow
+            {/* <InfoWindow
               // key={professionals[i].id}
               position={coord}
               className="try1">
@@ -86,7 +86,7 @@ const Map = ({ professionals, inputLocation }) => {
                   </div>
                 </Avatar>
               </div>
-            </InfoWindow>
+            </InfoWindow> */}
           </Link>
         </>
 

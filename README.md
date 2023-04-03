@@ -1,6 +1,6 @@
-## Salt Graduation Project Title: [`HireMe`](https://63d003ffbe962f1363cf2061--bright-unicorn-6ed0a4.netlify.app/gallery?location=Stockholm,%20Sweden&service=)
+## Salt Graduation Project Title: [`HireMe`](https://bright-unicorn-6ed0a4.netlify.app/gallery?location=stockholm&service=)
 
-Open [app](https://63d003ffbe962f1363cf2061--bright-unicorn-6ed0a4.netlify.app/gallery?location=Stockholm,%20Sweden&service=) with your browser to see the result.
+Open [app](https://bright-unicorn-6ed0a4.netlify.app/gallery?location=stockholm&service=) with your browser to see the result.
 
 
 

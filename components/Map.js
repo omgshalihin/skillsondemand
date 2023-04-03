@@ -1,10 +1,10 @@
 /* eslint-disable max-len */
 import React, { useState, useEffect } from 'react';
 import {
-  GoogleMap, InfoWindow,
+  GoogleMap,
 } from '@react-google-maps/api';
 import Geocode from 'react-geocode';
-import { Avatar } from 'flowbite-react';
+// import { Avatar } from 'flowbite-react';
 import Link from 'next/link';
 import styles from '../styles/Gallery.module.css';
 
